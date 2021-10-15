@@ -17,9 +17,13 @@ html,body{
 .dark{
     --black: rgb(247, 236, 201);
     --white: #333;
-    
 }
-
+.dark_video {
+    display: none;
+}
+.dark .dark_video {
+    display: block;
+}
 header{
     position:absolute;
     display: flex;
@@ -93,7 +97,6 @@ header .logo{
     color: #5ad67d;
     text-shadow: 0 20px 30px rgba(0,0,0,0.2);
 }
-
 /*typing effect*/
 .text-js{
     opacity: 0;
