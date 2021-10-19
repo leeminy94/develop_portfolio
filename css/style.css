@@ -286,7 +286,7 @@ header .logo{
     width:85%;
 }
 .progress-line.vue span{
-    width:70%;
+    width:40%;
 }
 .bar .progress-line span::before{
     position:absolute;
@@ -333,7 +333,7 @@ header .logo{
     content:"85%";
 }
 .progress-line.vue span::after{
-    content:"70%";
+    content:"40%";
 }
 
 /* 3nd:project */
