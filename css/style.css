@@ -10,22 +10,9 @@ html,body{
     place-items: center;
     background: #f0f0f0;
 }
-:root{
-    --black: #333;
-    --white: #fff;
-}
-.dark{
-    --black: rgb(247, 236, 201);
-    --white: #333;
-}
-.dark_video {
-    display: none;
-}
-.dark .dark_video {
-    display: block;
-}
+
 header{
-    position:absolute;
+    position:fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -220,6 +207,8 @@ header .logo{
     width: 20px;
     color: #6665ee;
 }
+.info_container p a {text-decoration: none; color:var(--black)}
+.info_container p a:hover{color:slateblue;}
 /* sec:profile - skill */
 .skills-bar{
     width: 600px;
@@ -285,7 +274,7 @@ header .logo{
 .progress-line.jquery span{
     width:85%;
 }
-.progress-line.vue span{
+.progress-line.react span{
     width:40%;
 }
 .bar .progress-line span::before{
@@ -332,7 +321,7 @@ header .logo{
 .progress-line.jquery span::after{
     content:"85%";
 }
-.progress-line.vue span::after{
+.progress-line.react span::after{
     content:"40%";
 }
 
