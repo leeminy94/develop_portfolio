@@ -611,3 +611,19 @@ input[type=checkbox]:checked + label {
   color: #f00;
   font-style: normal;
 }
+
+
+/*241016*/
+@media screen and (max-width:480px){
+    .profile_con{flex-direction: column;}
+
+    .skills-bar{width: 100%;}
+
+    header{padding:40px 20px;}
+    .sec{padding: 20px;}
+    .third{padding:20px;}
+    .last{padding:20px;}
+    
+    .blog-card{width: 100%; margin-right: 0px; margin-bottom: 30px;}
+    .copyrightText{left:50%; transform: translateX(-50%);}
+}
