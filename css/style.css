@@ -627,3 +627,19 @@ input[type=checkbox]:checked + label {
     .blog-card{width: 100%; margin-right: 0px; margin-bottom: 30px;}
     .copyrightText{left:50%; transform: translateX(-50%);}
 }
+
+/*241021*/
+.sec{width: 100%;}
+
+/*241022*/
+.skills-bar{max-height:330px; margin-top: 30px;}
+.profile_last{margin-bottom:1em; display: flex; flex-direction: row; width: 100%;}
+.profile_last > strong {margin: 0 2em 0 0.5em;}
+
+.profile_last_ul{padding-left: 0em; list-style: circle;}
+.profile_last_ul.m_only{display: none; }
+
+@media screen and (max-width:480px){
+    .profile_last_ul.pc_only{display: none;}
+    .profile_last_ul.m_only{display: flex; width: 100%; flex-direction: column; padding-left: 2em;}
+}
