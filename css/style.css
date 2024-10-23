@@ -643,3 +643,13 @@ input[type=checkbox]:checked + label {
     .profile_last_ul.pc_only{display: none;}
     .profile_last_ul.m_only{display: flex; width: 100%; flex-direction: column; padding-left: 2em;}
 }
+
+/*241023*/
+.last{width: 100%;}
+.copyrightText{width: 240px;}
+
+@media screen and (max-width:480px){
+    .copyrightText{left:50%;}
+
+    .sec{width: 100%; display: flex; flex-direction: column;}
+}
