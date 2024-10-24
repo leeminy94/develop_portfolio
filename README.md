@@ -1,6 +1,6 @@
 # develop_portfolio
-![포트폴리오](https://github.com/user-attachments/assets/44dd288a-09de-4dc0-a5fb-2f7746f53319)
+![screencapture-leeminy94-github-io-develop-portfolio-2024-10-24-10_29_09](https://github.com/user-attachments/assets/4be0f36d-0fad-423e-a642-2f4fc7b5f3fd)
 
 
-프론트개발 포트폴리오
+퍼블리싱 포트폴리오
 https://leeminy94.github.io/develop_portfolio/
