@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*mode*/
+:root{
+    --black: #333;
+    --white: #fff;
+}
+.dark{
+    --black: rgb(247, 236, 201);
+    --white: #333;
+
+    .third{
+        background: #000;
+    }
+}
+.dark_video {
+    display: none;
+}
+.dark .dark_video {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* :root[color-theme='light'] {
+    --background: #fff;
+    --fontColor: #000;
+    --swiperBackgorund_up: rgba(255, 31, 31, 1);
+    --swiperBackgorund_down: rgb(50, 105, 255, 1);
+}
+  
+:root[color-theme='dark'] {
+    --background: #26262b;
+    --fontColor: #fff;
+    --swiperBackgorund_up: rgba(255, 31, 31, .4);
+    --swiperBackgorund_down: rgb(50, 105, 255, .4);
+} */
